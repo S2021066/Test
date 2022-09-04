@@ -39,6 +39,8 @@ struct MemberInputPage: View {
 
 struct ThirdContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ThirdPage()
+        Group {
+            ThirdPage()
+        }
     }
 }
